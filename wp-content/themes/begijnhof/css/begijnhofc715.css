@@ -1,0 +1,2046 @@
+@import url("https://fonts.googleapis.com/css?family=Hind:300,400,500,600,700");
+/* line 5, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+/* line 22, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
+
+/* line 24, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, ../../../../../../../../Library/Ruby/Gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 7, sass/begijnhof.scss */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Hind', sans-serif;
+  font-size: 16px;
+  line-height: 130%;
+  color: #000000;
+  font-weight: 400;
+  vertical-align: baseline;
+}
+/* line 16, sass/begijnhof.scss */
+body .hidden {
+  display: none;
+}
+/* line 19, sass/begijnhof.scss */
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  margin: 0;
+  padding: 0;
+  line-height: 120%;
+}
+/* line 24, sass/begijnhof.scss */
+body ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 27, sass/begijnhof.scss */
+body ul li {
+  margin: 0;
+  padding: 0;
+}
+/* line 32, sass/begijnhof.scss */
+body strong {
+  font-weight: 700;
+}
+/* line 35, sass/begijnhof.scss */
+body em {
+  font-style: italic;
+}
+/* line 38, sass/begijnhof.scss */
+body img, body figure {
+  line-height: 1px;
+  max-width: 100%;
+  height: auto;
+}
+/* line 45, sass/begijnhof.scss */
+body figure a:hover {
+  opacity: 1 !important;
+}
+/* line 50, sass/begijnhof.scss */
+body small, body .small {
+  font-size: 90%;
+}
+/* line 53, sass/begijnhof.scss */
+body h1 {
+  font-size: 22px;
+  text-transform: uppercase;
+  margin-bottom: 30px;
+  font-weight: 600;
+}
+/* line 59, sass/begijnhof.scss */
+body h2 {
+  font-size: 20px;
+  text-transform: uppercase;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+/* line 65, sass/begijnhof.scss */
+body h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+/* line 70, sass/begijnhof.scss */
+body h4 {
+  font-size: 16px;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+/* line 78, sass/begijnhof.scss */
+body a {
+  text-decoration: underline;
+  cursor: pointer;
+  border-radius: 0 !important;
+  color: #000000;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 84, sass/begijnhof.scss */
+body a:hover {
+  text-decoration: underline;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 88, sass/begijnhof.scss */
+body a.btn-moreInfo {
+  padding: 10px 12px 7px;
+  border: 1px solid #9ea517;
+  color: #9ea517;
+  text-transform: uppercase;
+  float: right;
+  display: inline-block;
+  margin-top: 30px;
+  text-decoration: none;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 98, sass/begijnhof.scss */
+body a.btn-moreInfo:hover {
+  background-color: #9ea517;
+  color: #ffffff;
+  text-decoration: none;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  opacity: 1 !important;
+}
+/* line 106, sass/begijnhof.scss */
+body a.btn-news {
+  margin-top: 30px;
+  text-transform: uppercase;
+  color: #4a96a3;
+  padding: 0 0 2px;
+  border-bottom: 1px solid #4a96a3;
+  float: right;
+  text-decoration: none;
+}
+/* line 114, sass/begijnhof.scss */
+body a.btn-news:hover {
+  text-decoration: none;
+  border-bottom: 2px solid #4a96a3;
+  opacity: 1 !important;
+  color: #4a96a3;
+}
+/* line 122, sass/begijnhof.scss */
+body .fullWidth {
+  background-color: #ebebeb;
+  border-top: 5px solid #ffffff;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+/* line 129, sass/begijnhof.scss */
+body .smallBorder {
+  height: 3px;
+  width: 60px;
+  background-color: #9ea517;
+  margin-left: -20px;
+  margin-bottom: 30px;
+}
+
+/* line 138, sass/begijnhof.scss */
+header#site-header {
+  position: relative;
+}
+/* line 140, sass/begijnhof.scss */
+header#site-header .logo-container {
+  position: absolute;
+  top: 0;
+}
+/* line 143, sass/begijnhof.scss */
+header#site-header .logo-container .logo {
+  position: relative;
+  width: 318px;
+  height: 113px;
+  background-image: url(../../../../img/Logo.svg);
+  background-size: 100% 100%;
+  text-indent: -9999px !important;
+  display: block;
+  top: 0;
+  margin-top: 0;
+  background-color: #ffffff;
+  z-index: 5;
+}
+/* line 157, sass/begijnhof.scss */
+header#site-header #mobile-menu-container {
+  text-align: right;
+  position: relative;
+}
+/* line 160, sass/begijnhof.scss */
+header#site-header #mobile-menu-container button {
+  padding: 10px 0 10px;
+}
+/* line 162, sass/begijnhof.scss */
+header#site-header #mobile-menu-container button#toggle-nav {
+  border: none;
+  background: none;
+  color: #000000;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: right;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+/* line 172, sass/begijnhof.scss */
+header#site-header #mobile-menu-container button#toggle-nav .icon-bars:before {
+  padding-right: 5px;
+  line-height: 130%;
+}
+/* line 177, sass/begijnhof.scss */
+header#site-header #mobile-menu-container button#toggle-nav a {
+  text-decoration: none;
+}
+/* line 182, sass/begijnhof.scss */
+header#site-header #mobile-menu-container ul#menu-mobielenavigatie {
+  position: absolute;
+  right: 0;
+  text-align: right;
+  background: #870c05;
+  padding: 20px;
+  z-index: 9;
+}
+/* line 189, sass/begijnhof.scss */
+header#site-header #mobile-menu-container ul#menu-mobielenavigatie li {
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+/* line 192, sass/begijnhof.scss */
+header#site-header #mobile-menu-container ul#menu-mobielenavigatie li a {
+  width: 100%;
+  font-size: 16px;
+  color: #ffffff;
+}
+/* line 196, sass/begijnhof.scss */
+header#site-header #mobile-menu-container ul#menu-mobielenavigatie li a:hover {
+  opacity: 0.7;
+}
+/* line 200, sass/begijnhof.scss */
+header#site-header #mobile-menu-container ul#menu-mobielenavigatie li ul.sub-menu {
+  visibility: hidden;
+}
+/* line 206, sass/begijnhof.scss */
+header#site-header #menu-topnavigatie {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  text-transform: uppercase;
+}
+/* line 211, sass/begijnhof.scss */
+header#site-header #menu-topnavigatie li {
+  border-left: 2px solid #ebebeb;
+  display: inline-block;
+  padding: 10px;
+  margin-left: -4px;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 217, sass/begijnhof.scss */
+header#site-header #menu-topnavigatie li:last-child {
+  border-right: 2px solid #ebebeb;
+}
+/* line 220, sass/begijnhof.scss */
+header#site-header #menu-topnavigatie li a {
+  font-size: 14px;
+  color: #000000;
+  text-decoration: none;
+}
+/* line 225, sass/begijnhof.scss */
+header#site-header #menu-topnavigatie li:hover {
+  background: #ebebeb;
+  text-decoration: none;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 230, sass/begijnhof.scss */
+header#site-header #menu-topnavigatie li.current_page_item {
+  background: #ebebeb;
+}
+/* line 235, sass/begijnhof.scss */
+header#site-header .menu-hoofdnavigatie-container {
+  padding-top: 175px;
+  z-index: 1;
+}
+/* line 239, sass/begijnhof.scss */
+header#site-header .hoofdnavigatie-container {
+  position: relative;
+  height: 450px;
+  overflow: visible;
+}
+/* line 243, sass/begijnhof.scss */
+header#site-header .hoofdnavigatie-container .container {
+  position: relative;
+  z-index: 1;
+}
+/* line 247, sass/begijnhof.scss */
+header#site-header .hoofdnavigatie-container #banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+/* line 254, sass/begijnhof.scss */
+header#site-header .hoofdnavigatie-container #banner .slide {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 100%;
+}
+/* line 262, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+/* line 266, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li {
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  width: 25%;
+  width: calc(100%/4) !important;
+  display: inline-block;
+  float: left;
+  position: relative;
+}
+/* line 274, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li a {
+  text-decoration: none;
+  display: inline-block;
+  width: 100%;
+  padding: 15px 10px;
+  background-color: #ffffff;
+  opacity: 0.9;
+  font-size: 16px;
+  text-align: center;
+  font-weight: 500;
+}
+/* line 284, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li a:hover {
+  text-decoration: none;
+  opacity: 1;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  background: #870c05;
+  color: #ffffff !important;
+}
+/* line 293, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li.menu-item-has-children a {
+  position: relative;
+}
+/* line 295, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li.menu-item-has-children a:after {
+  font-family: 'begijnhof';
+  content: 'k';
+  font-size: 16px;
+  text-transform: none;
+  position: absolute;
+  right: 65px;
+  top: 13px;
+  color: #870c05;
+}
+/* line 306, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li.menu-item-has-children a:hover:after {
+  color: #ffffff;
+}
+/* line 314, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li.menu-item-has-children ul li a:after {
+  content: '';
+}
+/* line 324, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-138.menu-item-has-children a:after {
+  color: #9ea517;
+  right: 55px;
+}
+/* line 329, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-138.menu-item-has-children a:hover:after {
+  color: #ffffff;
+}
+/* line 336, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li ul.sub-menu {
+  visibility: hidden;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 3;
+  opacity: 0;
+  background: #ffffff;
+  -moz-transition: opacity 500ms, visibility 500ms;
+  -o-transition: opacity 500ms, visibility 500ms;
+  -webkit-transition: opacity 500ms, visibility 500ms;
+  transition: opacity 500ms, visibility 500ms;
+}
+/* line 349, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li ul.sub-menu li {
+  display: block;
+  float: none;
+}
+/* line 352, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li ul.sub-menu li a {
+  border-bottom: 0 !important;
+}
+/* line 354, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li ul.sub-menu li a:hover {
+  text-decoration: none;
+}
+/* line 362, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li:hover ul.sub-menu {
+  visibility: visible;
+  opacity: 1;
+}
+/* line 368, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-139 a {
+  color: #870c05;
+  border-bottom: 5px solid #870c05;
+  position: relative;
+}
+/* line 375, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-138 a {
+  color: #9ea517;
+  border-bottom: 5px solid #9ea517;
+  position: relative;
+}
+/* line 379, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-138 a:hover {
+  background: #9ea517;
+}
+/* line 385, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-232 a {
+  color: #423930;
+  border-bottom: 5px solid #423930;
+}
+/* line 388, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-232 a:hover {
+  background: #423930;
+}
+/* line 394, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-238 a {
+  color: #4a96a3;
+  border-bottom: 5px solid #4a96a3;
+}
+/* line 397, sass/begijnhof.scss */
+header#site-header #menu-hoofdnavigatie > li#menu-item-238 a:hover {
+  background: #4a96a3;
+}
+
+/* line 406, sass/begijnhof.scss */
+.single-patrimonium .patrimoniumExtra {
+  position: relative;
+  bottom: 0;
+  color: #ffffff;
+  list-style-type: none !important;
+  background-color: #f0f8f9;
+  text-align: center;
+  list-style: none !important;
+  margin: 30px 0;
+  padding: 10px;
+  display: block;
+  width: 70%;
+  left: 15%;
+  border-top: 5px solid #4a96a3;
+}
+/* line 420, sass/begijnhof.scss */
+.single-patrimonium .patrimoniumExtra li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+  border-right: 1px solid #4a96a3;
+  color: #4a96a3;
+  width: 50%;
+}
+/* line 427, sass/begijnhof.scss */
+.single-patrimonium .patrimoniumExtra li::before {
+  content: "" !important;
+}
+/* line 430, sass/begijnhof.scss */
+.single-patrimonium .patrimoniumExtra li:last-child {
+  border-right: none;
+}
+/* line 433, sass/begijnhof.scss */
+.single-patrimonium .patrimoniumExtra li h3 {
+  margin-bottom: 2px;
+}
+
+/* line 440, sass/begijnhof.scss */
+#container-main-content {
+  clear: both;
+}
+/* line 442, sass/begijnhof.scss */
+#container-main-content p {
+  margin-bottom: 7px;
+}
+/* line 446, sass/begijnhof.scss */
+#container-main-content a:hover {
+  opacity: 0.7;
+}
+/* line 451, sass/begijnhof.scss */
+#container-main-content article ul {
+  margin-bottom: 5px;
+}
+/* line 453, sass/begijnhof.scss */
+#container-main-content article ul li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+/* line 24, sass/_mixins.scss */
+#container-main-content article ul li:before {
+  font-family: begijnhof;
+  content: "h";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #000000;
+}
+/* line 455, sass/begijnhof.scss */
+#container-main-content article ul li.list-unstyled {
+  padding-left: 0;
+}
+/* line 457, sass/begijnhof.scss */
+#container-main-content article ul li.list-unstyled:before {
+  content: '';
+}
+/* line 464, sass/begijnhof.scss */
+#container-main-content #internal-links {
+  display: none;
+}
+/* line 467, sass/begijnhof.scss */
+#container-main-content aside {
+  padding-right: 50px;
+}
+
+/* line 472, sass/begijnhof.scss */
+#intro {
+  padding: 50px 0 50px 100px;
+  float: right;
+}
+
+/* line 478, sass/begijnhof.scss */
+#recent-news .row {
+  display: flex;
+}
+/* line 481, sass/begijnhof.scss */
+#recent-news .item {
+  margin-right: 0;
+  margin-bottom: 1.5rem;
+  min-height: 250px;
+  background-color: white;
+  padding: 0;
+  display: flex;
+}
+/* line 488, sass/begijnhof.scss */
+#recent-news .item figure {
+  padding: 0;
+  height: 100%;
+}
+/* line 491, sass/begijnhof.scss */
+#recent-news .item figure img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+/* line 498, sass/begijnhof.scss */
+#recent-news .item h3 a {
+  color: #000000;
+  text-decoration: none;
+}
+/* line 504, sass/begijnhof.scss */
+#recent-news .newsTextAndButton {
+  padding: 2rem;
+}
+
+/* line 510, sass/begijnhof.scss */
+#widgets {
+  margin-top: 3rem;
+}
+/* line 513, sass/begijnhof.scss */
+#widgets .item .itemContent {
+  display: block;
+  padding: 2rem;
+  margin-bottom: 1rem;
+  text-decoration: none;
+}
+/* line 518, sass/begijnhof.scss */
+#widgets .item .itemContent:hover {
+  text-decoration: none;
+  color: #ffffff !important;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+  opacity: 1;
+}
+/* line 523, sass/begijnhof.scss */
+#widgets .item .itemContent:hover h3 {
+  color: #ffffff !important;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 530, sass/begijnhof.scss */
+#widgets .item:nth-of-type(1) .itemContent {
+  border: 2px solid #870c05;
+  border-bottom: 6px solid #870c05;
+  color: #870c05;
+}
+/* line 534, sass/begijnhof.scss */
+#widgets .item:nth-of-type(1) .itemContent h3 {
+  color: #870c05;
+}
+/* line 537, sass/begijnhof.scss */
+#widgets .item:nth-of-type(1) .itemContent:hover {
+  background-color: #870c05;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 544, sass/begijnhof.scss */
+#widgets .item:nth-of-type(2) .itemContent {
+  border: 2px solid #9ea517;
+  border-bottom: 6px solid #9ea517;
+  color: #9ea517;
+}
+/* line 548, sass/begijnhof.scss */
+#widgets .item:nth-of-type(2) .itemContent h3 {
+  color: #9ea517;
+}
+/* line 551, sass/begijnhof.scss */
+#widgets .item:nth-of-type(2) .itemContent:hover {
+  background-color: #9ea517;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+/* line 558, sass/begijnhof.scss */
+#widgets .item:nth-of-type(3) .itemContent {
+  border: 2px solid #423930;
+  border-bottom: 6px solid #423930;
+  color: #423930;
+}
+/* line 562, sass/begijnhof.scss */
+#widgets .item:nth-of-type(3) .itemContent h3 {
+  color: #423930;
+}
+/* line 566, sass/begijnhof.scss */
+#widgets .item:nth-of-type(3) .itemContent:hover {
+  background-color: #423930;
+  -moz-transition: all 0.3s ease-in-out 0s;
+  -o-transition: all 0.3s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* line 574, sass/begijnhof.scss */
+#restaurations {
+  margin-top: 45px;
+  position: relative;
+  padding-bottom: 65px;
+}
+/* line 579, sass/begijnhof.scss */
+#restaurations .restaurationButtons .older {
+  position: absolute;
+  right: 40%;
+  bottom: 5px;
+  text-decoration: none;
+  font-size: 25px !important;
+}
+/* line 586, sass/begijnhof.scss */
+#restaurations .restaurationButtons .newer {
+  position: absolute;
+  left: 40%;
+  bottom: 5px;
+  text-decoration: none;
+  font-size: 25px !important;
+  color: #757575;
+}
+/* line 594, sass/begijnhof.scss */
+#restaurations .restaurationButtons .olderText {
+  position: absolute;
+  right: calc(40% - 200px);
+  bottom: 0;
+  color: #757575;
+}
+/* line 600, sass/begijnhof.scss */
+#restaurations .restaurationButtons .newerText {
+  position: absolute;
+  left: calc(40% - 200px);
+  bottom: 0;
+  color: #757575;
+}
+/* line 607, sass/begijnhof.scss */
+#restaurations .restau {
+  opacity: 1;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -ms-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  padding: 10px;
+}
+/* line 617, sass/begijnhof.scss */
+#restaurations .restau .restaurationText p {
+  font-size: 14px;
+}
+/* line 620, sass/begijnhof.scss */
+#restaurations .restau .restaurationText h3 {
+  text-align: center;
+  color: #870c05;
+}
+/* line 625, sass/begijnhof.scss */
+#restaurations .restau .date {
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 10px auto;
+  border: 2px solid #870c05;
+  text-align: center;
+  border-radius: 500px;
+  padding-top: 20px;
+  color: #870c05;
+  position: relative;
+}
+/* line 637, sass/begijnhof.scss */
+#restaurations .restau.hidden {
+  filter: alpha(opacity=0);
+  opacity: 0;
+  display: none;
+}
+/* line 644, sass/begijnhof.scss */
+#restaurations .restau:nth-child(2n+2) .date {
+  margin-top: 70px;
+}
+/* line 649, sass/begijnhof.scss */
+#restaurations .restau:nth-child(3n+2) .date {
+  border: 2px solid #9ea517 !important;
+  color: #9ea517 !important;
+}
+/* line 654, sass/begijnhof.scss */
+#restaurations .restau:nth-child(3n+2) .restaurationText h3 {
+  text-align: center;
+  color: #9ea517;
+}
+/* line 661, sass/begijnhof.scss */
+#restaurations .restau:nth-child(3n+3) .date {
+  border: 2px solid #4a96a3 !important;
+  color: #4a96a3 !important;
+}
+/* line 666, sass/begijnhof.scss */
+#restaurations .restau:nth-child(3n+3) .restaurationText h3 {
+  text-align: center;
+  color: #4a96a3;
+}
+
+/* line 677, sass/begijnhof.scss */
+#spotlight {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+/* line 680, sass/begijnhof.scss */
+#spotlight h1 {
+  color: #4a96a3;
+  text-align: center;
+}
+/* line 684, sass/begijnhof.scss */
+#spotlight .spotlightContainer {
+  background-color: #ebebeb;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  min-height: 130px;
+}
+/* line 690, sass/begijnhof.scss */
+#spotlight .spotlightContainer .spotlightText {
+  background-color: #ebebeb;
+  padding: 50px;
+}
+/* line 694, sass/begijnhof.scss */
+#spotlight .spotlightContainer .spotlightImage {
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+}
+/* line 698, sass/begijnhof.scss */
+#spotlight .spotlightContainer .spotlightImage ul {
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+  list-style-type: none !important;
+  left: 25%;
+  background-color: #4a96a3;
+  text-align: center;
+  padding: 1rem;
+  list-style: none !important;
+  margin: 0;
+  padding: 1rem 0;
+}
+/* line 710, sass/begijnhof.scss */
+#spotlight .spotlightContainer .spotlightImage ul li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 1rem;
+  border-right: 1px solid #ffffff;
+}
+/* line 715, sass/begijnhof.scss */
+#spotlight .spotlightContainer .spotlightImage ul li:last-child {
+  border-right: 0;
+}
+/* line 718, sass/begijnhof.scss */
+#spotlight .spotlightContainer .spotlightImage ul li h3 {
+  margin-bottom: 2px;
+}
+
+/* line 726, sass/begijnhof.scss */
+#advantages {
+  margin-bottom: 50px;
+}
+/* line 729, sass/begijnhof.scss */
+#advantages ul li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-left: 50px;
+}
+/* line 24, sass/_mixins.scss */
+#advantages ul li:before {
+  font-family: begijnhof;
+  content: "i";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #870c05;
+}
+/* line 732, sass/begijnhof.scss */
+#advantages ul li:before {
+  font-size: 30px;
+}
+/* line 735, sass/begijnhof.scss */
+#advantages ul li h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* line 745, sass/begijnhof.scss */
+.defaultTemplate aside h3, .single aside h3 {
+  margin: 0;
+  font-weight: 400;
+}
+/* line 748, sass/begijnhof.scss */
+.defaultTemplate aside h3 a, .single aside h3 a {
+  padding: 0 0 10px;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  color: #9ea517;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  display: block;
+}
+/* line 24, sass/_mixins.scss */
+.defaultTemplate aside h3 a:before, .single aside h3 a:before {
+  font-family: begijnhof;
+  content: "h";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #9ea517;
+}
+/* line 757, sass/begijnhof.scss */
+.defaultTemplate aside h3 a:hover, .single aside h3 a:hover {
+  color: #9ea517;
+}
+/* line 760, sass/begijnhof.scss */
+.defaultTemplate aside h3 a:before, .single aside h3 a:before {
+  font-size: 16px;
+}
+/* line 765, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages, .single aside #child-pages {
+  margin-bottom: 30px;
+}
+/* line 768, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages .current_page_item a, .single aside #child-pages .current_page_item a {
+  color: #9ea517;
+}
+/* line 773, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages li, .single aside #child-pages li {
+  margin: 0;
+}
+/* line 775, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages li a, .single aside #child-pages li a {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+  padding: 10px 0;
+  border-bottom: 1px solid #ffffff;
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  display: block;
+}
+/* line 24, sass/_mixins.scss */
+.defaultTemplate aside #child-pages li a:before, .single aside #child-pages li a:before {
+  font-family: begijnhof;
+  content: "h";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #9ea517;
+}
+/* line 784, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages li a:hover, .single aside #child-pages li a:hover {
+  color: #9ea517;
+  opacity: 1;
+}
+/* line 788, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages li a:before, .single aside #child-pages li a:before {
+  top: 8px;
+  font-size: 16px;
+}
+/* line 794, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages li ul.children li, .single aside #child-pages li ul.children li {
+  padding-left: 15px;
+}
+/* line 800, sass/begijnhof.scss */
+.defaultTemplate aside #child-pages li.current a, .single aside #child-pages li.current a {
+  color: #9ea517;
+  font-weight: 500;
+}
+/* line 808, sass/begijnhof.scss */
+.defaultTemplate .maps, .single .maps {
+  margin-bottom: 30px;
+}
+/* line 809, sass/begijnhof.scss */
+.defaultTemplate .maps .coord, .single .maps .coord {
+  display: none;
+}
+/* line 812, sass/begijnhof.scss */
+.defaultTemplate .maps #map, .single .maps #map {
+  height: 35vh;
+  width: 100%;
+}
+/* line 818, sass/begijnhof.scss */
+.defaultTemplate #additional-links, .single #additional-links {
+  display: flex;
+}
+/* line 821, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container, .single #additional-links article .links-container {
+  padding: 20px;
+  background: #ffffff;
+  border-bottom: 5px solid #9ea517;
+  height: 100%;
+}
+/* line 826, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container h3, .single #additional-links article .links-container h3 {
+  margin-top: 8px;
+}
+/* line 828, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container h3:before, .single #additional-links article .links-container h3:before {
+  padding: 7px 10px;
+  border-radius: 35px;
+  background: #9ea517;
+  width: 35px;
+  height: 35px;
+}
+/* line 836, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container ul, .single #additional-links article .links-container ul {
+  margin-top: 20px;
+}
+/* line 838, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container ul li, .single #additional-links article .links-container ul li {
+  margin-bottom: 3px;
+  padding-left: 0;
+}
+/* line 841, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container ul li:before, .single #additional-links article .links-container ul li:before {
+  content: '';
+}
+/* line 844, sass/begijnhof.scss */
+.defaultTemplate #additional-links article .links-container ul li a, .single #additional-links article .links-container ul li a {
+  color: #000000;
+}
+/* line 850, sass/begijnhof.scss */
+.defaultTemplate #additional-links article#downloads, .single #additional-links article#downloads {
+  margin: 50px 0 30px;
+}
+/* line 852, sass/begijnhof.scss */
+.defaultTemplate #additional-links article#downloads h3, .single #additional-links article#downloads h3 {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+}
+/* line 24, sass/_mixins.scss */
+.defaultTemplate #additional-links article#downloads h3:before, .single #additional-links article#downloads h3:before {
+  font-family: begijnhof;
+  content: "a";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #ffffff;
+}
+/* line 855, sass/begijnhof.scss */
+.defaultTemplate #additional-links article#downloads h3:before, .single #additional-links article#downloads h3:before {
+  top: -8px;
+}
+/* line 860, sass/begijnhof.scss */
+.defaultTemplate #additional-links article#links, .single #additional-links article#links {
+  margin: 50px 0 30px;
+}
+/* line 862, sass/begijnhof.scss */
+.defaultTemplate #additional-links article#links h3, .single #additional-links article#links h3 {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+  padding-left: 45px;
+}
+/* line 24, sass/_mixins.scss */
+.defaultTemplate #additional-links article#links h3:before, .single #additional-links article#links h3:before {
+  font-family: begijnhof;
+  content: "b";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #ffffff;
+}
+/* line 865, sass/begijnhof.scss */
+.defaultTemplate #additional-links article#links h3:before, .single #additional-links article#links h3:before {
+  top: -8px;
+}
+/* line 873, sass/begijnhof.scss */
+.defaultTemplate #gallery figure, .single #gallery figure {
+  margin-bottom: 30px;
+}
+/* line 880, sass/begijnhof.scss */
+.defaultTemplate .huren aside h3 a, .single .huren aside h3 a {
+  color: #870c05;
+}
+/* line 882, sass/begijnhof.scss */
+.defaultTemplate .huren aside h3 a:hover, .single .huren aside h3 a:hover {
+  color: #870c05;
+}
+/* line 885, sass/begijnhof.scss */
+.defaultTemplate .huren aside h3 a:before, .single .huren aside h3 a:before {
+  color: #870c05;
+}
+/* line 892, sass/begijnhof.scss */
+.defaultTemplate .huren aside #child-pages .current_page_item a, .single .huren aside #child-pages .current_page_item a {
+  color: #870c05;
+}
+/* line 899, sass/begijnhof.scss */
+.defaultTemplate .huren aside #child-pages li a:hover, .single .huren aside #child-pages li a:hover {
+  color: #870c05;
+}
+/* line 902, sass/begijnhof.scss */
+.defaultTemplate .huren aside #child-pages li a:before, .single .huren aside #child-pages li a:before {
+  color: #870c05;
+}
+/* line 907, sass/begijnhof.scss */
+.defaultTemplate .huren aside #child-pages li.current a, .single .huren aside #child-pages li.current a {
+  color: #870c05;
+}
+/* line 915, sass/begijnhof.scss */
+.defaultTemplate .huren article a, .single .huren article a {
+  color: #870c05;
+}
+/* line 918, sass/begijnhof.scss */
+.defaultTemplate .huren article .smallBorder, .single .huren article .smallBorder {
+  background-color: #870c05;
+}
+/* line 924, sass/begijnhof.scss */
+.defaultTemplate .huren #additional-links article .links-container, .single .huren #additional-links article .links-container {
+  border-bottom: 5px solid #870c05;
+}
+/* line 927, sass/begijnhof.scss */
+.defaultTemplate .huren #additional-links article .links-container h3:before, .single .huren #additional-links article .links-container h3:before {
+  background: #870c05;
+}
+/* line 940, sass/begijnhof.scss */
+.defaultTemplate .toerist #child-pages ul li a:hover, .single .toerist #child-pages ul li a:hover {
+  color: #423930;
+}
+/* line 943, sass/begijnhof.scss */
+.defaultTemplate .toerist #child-pages ul li a:before, .single .toerist #child-pages ul li a:before {
+  color: #423930;
+}
+/* line 949, sass/begijnhof.scss */
+.defaultTemplate .toerist #child-pages .current_page_item, .single .toerist #child-pages .current_page_item {
+  color: #423930;
+}
+/* line 953, sass/begijnhof.scss */
+.defaultTemplate .toerist #child-pages h3 a, .single .toerist #child-pages h3 a {
+  color: #423930;
+}
+/* line 955, sass/begijnhof.scss */
+.defaultTemplate .toerist #child-pages h3 a:hover, .single .toerist #child-pages h3 a:hover {
+  color: #423930;
+}
+/* line 958, sass/begijnhof.scss */
+.defaultTemplate .toerist #child-pages h3 a:before, .single .toerist #child-pages h3 a:before {
+  color: #423930;
+}
+/* line 965, sass/begijnhof.scss */
+.defaultTemplate .toerist article a, .single .toerist article a {
+  color: #423930;
+}
+/* line 968, sass/begijnhof.scss */
+.defaultTemplate .toerist article .smallBorder, .single .toerist article .smallBorder {
+  background-color: #423930;
+}
+/* line 974, sass/begijnhof.scss */
+.defaultTemplate .toerist #additional-links article .links-container, .single .toerist #additional-links article .links-container {
+  border-bottom: 5px solid #423930;
+}
+/* line 977, sass/begijnhof.scss */
+.defaultTemplate .toerist #additional-links article .links-container h3:before, .single .toerist #additional-links article .links-container h3:before {
+  background: #423930;
+}
+/* line 990, sass/begijnhof.scss */
+.defaultTemplate .acti #child-pages ul li a:hover, .single .acti #child-pages ul li a:hover {
+  color: #4a96a3;
+}
+/* line 993, sass/begijnhof.scss */
+.defaultTemplate .acti #child-pages ul li a:before, .single .acti #child-pages ul li a:before {
+  color: #4a96a3;
+}
+/* line 1000, sass/begijnhof.scss */
+.defaultTemplate .acti #child-pages h3 a, .single .acti #child-pages h3 a {
+  color: #4a96a3;
+}
+/* line 1002, sass/begijnhof.scss */
+.defaultTemplate .acti #child-pages h3 a:hover, .single .acti #child-pages h3 a:hover {
+  color: #4a96a3;
+}
+/* line 1005, sass/begijnhof.scss */
+.defaultTemplate .acti #child-pages h3 a:before, .single .acti #child-pages h3 a:before {
+  color: #4a96a3;
+}
+/* line 1012, sass/begijnhof.scss */
+.defaultTemplate .acti article a, .single .acti article a {
+  color: #4a96a3;
+}
+/* line 1015, sass/begijnhof.scss */
+.defaultTemplate .acti article .smallBorder, .single .acti article .smallBorder {
+  background-color: #4a96a3;
+}
+/* line 1021, sass/begijnhof.scss */
+.defaultTemplate .acti #additional-links article .links-container, .single .acti #additional-links article .links-container {
+  border-bottom: 5px solid #4a96a3;
+}
+/* line 1024, sass/begijnhof.scss */
+.defaultTemplate .acti #additional-links article .links-container h3:before, .single .acti #additional-links article .links-container h3:before {
+  background: #4a96a3;
+}
+/* line 1032, sass/begijnhof.scss */
+.defaultTemplate #patrimonium, .single #patrimonium {
+  margin: 50px 0 30px;
+}
+/* line 1034, sass/begijnhof.scss */
+.defaultTemplate #patrimonium.row, .single #patrimonium.row {
+  margin-left: -15px;
+  margin-right: -15px;
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 1040, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .col-xs-12, .single #patrimonium .col-xs-12 {
+  margin-bottom: 30px;
+}
+/* line 1043, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer, .single #patrimonium .patrimoniumContainer {
+  height: 100%;
+}
+/* line 1045, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside, .single #patrimonium .patrimoniumContainer .patrimoniumInside {
+  background-color: #ffffff;
+  border-bottom: 5px solid #4a96a3;
+  position: relative;
+  height: 100%;
+}
+/* line 1050, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .status, .single #patrimonium .patrimoniumContainer .patrimoniumInside .status {
+  position: absolute;
+  top: 10px;
+  background-color: #870c05;
+  color: #ffffff;
+  padding: 5px 10px 2px;
+  text-transform: uppercase;
+  font-weight: normal;
+  z-index: 1;
+}
+/* line 1060, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  list-style-type: none !important;
+  background-color: #f0f8f9;
+  text-align: center;
+  list-style: none !important;
+  padding: 10px;
+  display: block;
+  width: 90%;
+  left: 5%;
+}
+/* line 1072, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 10px;
+  border-right: 1px solid #4a96a3;
+  color: #4a96a3;
+  width: 50%;
+}
+/* line 1079, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li::before, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li::before {
+  content: "" !important;
+}
+/* line 1082, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li:last-child, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li:last-child {
+  border-right: none;
+}
+/* line 1085, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li h3, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumExtra li h3 {
+  margin-bottom: 2px;
+}
+/* line 1090, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure {
+  position: relative;
+}
+/* line 1092, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure .map, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure .map {
+  position: absolute;
+  bottom: 30px;
+  right: 15px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50px !important;
+  background: #ffffff;
+  color: #870c05;
+  text-align: center;
+  color: #870c05;
+}
+/* line 1103, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure .map a, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure .map a {
+  font-size: 30px;
+  text-decoration: none;
+  color: #870c05;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+/* line 1110, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure .map a:before, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure .map a:before {
+  content: '';
+}
+/* line 1114, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure .map:hover, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure .map:hover {
+  background: #870c05;
+  cursor: pointer;
+}
+/* line 1117, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure .map:hover a, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure .map:hover a {
+  color: #ffffff;
+  opacity: 1;
+}
+/* line 1124, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumText, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumText {
+  padding: 10px 20px 140px;
+  margin-top: 1rem;
+}
+/* line 1127, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumText h3, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumText h3 {
+  margin-bottom: 15px;
+}
+/* line 1130, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumText a, .single #patrimonium .patrimoniumContainer .patrimoniumInside .patrimoniumText a {
+  margin-top: 5px;
+  float: left;
+}
+/* line 1135, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra, .single #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra {
+  position: absolute;
+  bottom: 0;
+  color: #ffffff;
+  list-style-type: none !important;
+  left: 12%;
+  background-color: #f0f8f9;
+  text-align: center;
+  padding: 1rem;
+  list-style: none !important;
+  margin: 0;
+  padding: 1rem 0;
+  display: block;
+}
+/* line 1148, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra li, .single #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 0 1rem;
+  border-right: 1px solid #4a96a3;
+  color: #4a96a3;
+}
+/* line 1154, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra li:last-child, .single #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra li:last-child {
+  border-right: none;
+}
+/* line 1157, sass/begijnhof.scss */
+.defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra li h3, .single #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra li h3 {
+  margin-bottom: 2px;
+}
+/* line 1168, sass/begijnhof.scss */
+.defaultTemplate #frm_form_2_container, .single #frm_form_2_container {
+  margin-top: 30px;
+}
+
+/* line 1174, sass/begijnhof.scss */
+.faq-page .contact-block {
+  background: #ffffff;
+  padding: 20px;
+  border-bottom: 5px solid #9ea517;
+}
+/* line 1178, sass/begijnhof.scss */
+.faq-page .contact-block h3 {
+  color: #9ea517;
+}
+/* line 1184, sass/begijnhof.scss */
+.faq-page article #faqs .faq {
+  border-bottom: 2px solid #ffffff;
+  padding: 15px 0 12px;
+  cursor: pointer;
+}
+/* line 1188, sass/begijnhof.scss */
+.faq-page article #faqs .faq:hover {
+  border-bottom: 2px solid #9ea517;
+}
+/* line 1190, sass/begijnhof.scss */
+.faq-page article #faqs .faq:hover h4 {
+  color: #9ea517;
+}
+/* line 1194, sass/begijnhof.scss */
+.faq-page article #faqs .faq h4 {
+  cursor: pointer;
+}
+/* line 1196, sass/begijnhof.scss */
+.faq-page article #faqs .faq h4 a {
+  color: #000000;
+}
+/* line 1198, sass/begijnhof.scss */
+.faq-page article #faqs .faq h4 a:hover {
+  color: #9ea517;
+}
+/* line 1203, sass/begijnhof.scss */
+.faq-page article #faqs .faq .answer {
+  display: none;
+}
+/* line 1206, sass/begijnhof.scss */
+.faq-page article #faqs .faq.open {
+  border-bottom: 2px solid #9ea517;
+}
+/* line 1208, sass/begijnhof.scss */
+.faq-page article #faqs .faq.open h4 {
+  color: #9ea517;
+}
+
+/* line 1218, sass/begijnhof.scss */
+.news-page .smallBorder {
+  background-color: #4a96a3 !important;
+}
+/* line 1222, sass/begijnhof.scss */
+.news-page #news .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+/* line 1226, sass/begijnhof.scss */
+.news-page #news .articleContainer {
+  margin-bottom: 30px;
+}
+/* line 1228, sass/begijnhof.scss */
+.news-page #news .articleContainer .item {
+  background-color: #ffffff;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+/* line 1233, sass/begijnhof.scss */
+.news-page #news .articleContainer .item .newsText {
+  padding: 2rem;
+}
+/* line 1236, sass/begijnhof.scss */
+.news-page #news .articleContainer .item .newsText h3 a {
+  color: #000000;
+  text-decoration: none;
+}
+
+/* line 1247, sass/begijnhof.scss */
+#site-footer {
+  background: #423930;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+  margin-top: 5px;
+}
+/* line 1253, sass/begijnhof.scss */
+#site-footer a {
+  color: #ffffff;
+}
+/* line 1255, sass/begijnhof.scss */
+#site-footer a:hover {
+  opacity: 0.8;
+}
+/* line 1260, sass/begijnhof.scss */
+#site-footer ul#menu-hoofdnavigatie-1 li {
+  position: relative;
+  padding-left: 20px;
+  padding-bottom: 5px;
+}
+/* line 24, sass/_mixins.scss */
+#site-footer ul#menu-hoofdnavigatie-1 li:before {
+  font-family: begijnhof;
+  content: "h";
+  position: absolute;
+  left: 0;
+  top: -1px;
+  font-size: 14px;
+  text-transform: none !important;
+  color: #ffffff;
+}
+/* line 1265, sass/begijnhof.scss */
+#site-footer .social_icons li {
+  display: inline-block !important;
+  padding: 0 10px 0 0;
+  margin: 0;
+  width: auto !important;
+  list-style: none;
+  display: inline-block;
+  margin-top: 20px;
+}
+/* line 1273, sass/begijnhof.scss */
+#site-footer .social_icons li a {
+  font-size: 1.6rem;
+  margin: 0;
+  padding: 0;
+  text-decoration: none !important;
+}
+/* line 1281, sass/begijnhof.scss */
+#site-footer .partners {
+  text-align: right;
+}
+/* line 1283, sass/begijnhof.scss */
+#site-footer .partners img {
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
+  height: 70px;
+  width: auto;
+  margin-left: 10px;
+}
+/* line 1290, sass/begijnhof.scss */
+#site-footer .partners a {
+  text-decoration: none;
+}
+
+/* line 1296, sass/begijnhof.scss */
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
+}
+/* line 1306, sass/begijnhof.scss */
+.overlay#image-overlay .container {
+  text-align: center;
+  position: relative;
+  background: #ffffff;
+}
+/* line 1311, sass/begijnhof.scss */
+.overlay#image-overlay .container figure img {
+  display: inline-block;
+  vertical-align: middle;
+  max-width: 100%;
+  margin-top: -2px;
+}
+/* line 1321, sass/begijnhof.scss */
+.overlay .icon-close {
+  font-size: 20px;
+  font-weight: 300;
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 15px;
+  color: #000000;
+  cursor: pointer;
+}
+/* line 1331, sass/begijnhof.scss */
+.overlay .icon-close:hover {
+  opacity: 0.7;
+}
+/* line 1334, sass/begijnhof.scss */
+.overlay .next {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 48%;
+  color: #ffffff;
+  padding: 10px 8px 8px;
+  background: #9ea517;
+  font-size: 25px;
+}
+/* line 1344, sass/begijnhof.scss */
+.overlay .prev {
+  cursor: pointer;
+  position: absolute;
+  left: 0;
+  top: 48%;
+  color: #ffffff;
+  padding: 10px 8px 8px;
+  background: #9ea517;
+  font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  /* line 1359, sass/begijnhof.scss */
+  #restaurations {
+    padding-bottom: 150px;
+  }
+  /* line 1362, sass/begijnhof.scss */
+  #restaurations .restaurationButtons .newer {
+    bottom: 50px;
+  }
+  /* line 1365, sass/begijnhof.scss */
+  #restaurations .restaurationButtons .newerText {
+    right: 60%;
+    left: auto;
+  }
+  /* line 1369, sass/begijnhof.scss */
+  #restaurations .restaurationButtons .older {
+    bottom: 50px;
+  }
+  /* line 1372, sass/begijnhof.scss */
+  #restaurations .restaurationButtons .olderText {
+    left: 60%;
+    right: auto;
+  }
+  /* line 1379, sass/begijnhof.scss */
+  #restaurations .restau:nth-child(2n+2) .date {
+    margin-top: 10px;
+  }
+  /* line 1383, sass/begijnhof.scss */
+  #restaurations .restau .date {
+    margin-top: 10px;
+  }
+
+  /* line 1388, sass/begijnhof.scss */
+  .hidden-xs {
+    display: none;
+  }
+
+  /* line 1392, sass/begijnhof.scss */
+  .single-patrimonium .patrimoniumExtra {
+    width: 100%;
+    left: 0;
+  }
+
+  /* line 1397, sass/begijnhof.scss */
+  aside {
+    padding-right: 15px !important;
+  }
+  /* line 1399, sass/begijnhof.scss */
+  aside #child-pages {
+    display: none;
+  }
+  /* line 1402, sass/begijnhof.scss */
+  aside .headImage {
+    margin-bottom: 30px !important;
+  }
+
+  /* line 1406, sass/begijnhof.scss */
+  .fullWidth {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* line 1411, sass/begijnhof.scss */
+  header#site-header .logo-container {
+    position: relative;
+    float: left;
+    width: auto;
+    margin-bottom: 15px;
+  }
+  /* line 1416, sass/begijnhof.scss */
+  header#site-header .logo-container .logo {
+    width: 250px;
+    height: 90px;
+  }
+  /* line 1421, sass/begijnhof.scss */
+  header#site-header .top-container {
+    width: auto;
+    float: right;
+  }
+  /* line 1426, sass/begijnhof.scss */
+  header#site-header #container-top-navigation ul#menu-mobielenavigatie {
+    min-width: 100vw;
+  }
+  /* line 1429, sass/begijnhof.scss */
+  header#site-header #container-top-navigation ul#menu-mobielenavigatie li ul.sub-menu {
+    display: block;
+  }
+  /* line 1431, sass/begijnhof.scss */
+  header#site-header #container-top-navigation ul#menu-mobielenavigatie li ul.sub-menu li {
+    padding: 0;
+  }
+  /* line 1433, sass/begijnhof.scss */
+  header#site-header #container-top-navigation ul#menu-mobielenavigatie li ul.sub-menu li a {
+    text-decoration: none;
+  }
+  /* line 1444, sass/begijnhof.scss */
+  header#site-header #mobile-menu-container button#toggle-nav {
+    font-size: 20px;
+  }
+  /* line 1449, sass/begijnhof.scss */
+  header#site-header .hoofdnavigatie-container {
+    height: auto;
+  }
+  /* line 1451, sass/begijnhof.scss */
+  header#site-header .hoofdnavigatie-container #banner {
+    display: none;
+  }
+  /* line 1455, sass/begijnhof.scss */
+  header#site-header .menu-hoofdnavigatie-container {
+    padding-top: 0;
+    padding-bottom: 10px;
+    overflow: visible;
+  }
+  /* line 1461, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  /* line 1464, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li a {
+    opacity: 1;
+  }
+  /* line 1469, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li.menu-item-has-children a:after {
+    right: 100px;
+    color: #ffffff;
+  }
+  /* line 1476, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-139 a {
+    color: #ffffff;
+    background-color: #870c05;
+  }
+  /* line 1483, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-138.menu-item-has-children a {
+    color: #ffffff;
+    background-color: #9ea517;
+  }
+  /* line 1486, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-138.menu-item-has-children a:after {
+    right: 90px;
+    color: #ffffff;
+  }
+  /* line 1494, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-232 a {
+    color: #ffffff;
+    background: #423930;
+  }
+  /* line 1500, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-238 a {
+    color: #ffffff;
+    background: #4a96a3;
+  }
+
+  /* line 1508, sass/begijnhof.scss */
+  #intro {
+    padding: 30px 15px;
+  }
+
+  /* line 1512, sass/begijnhof.scss */
+  #recent-news .row {
+    display: block;
+  }
+  /* line 1515, sass/begijnhof.scss */
+  #recent-news .item {
+    overflow: hidden;
+    display: block;
+  }
+  /* line 1518, sass/begijnhof.scss */
+  #recent-news .item figure {
+    height: 175px;
+    overflow: hidden;
+  }
+  /* line 1521, sass/begijnhof.scss */
+  #recent-news .item figure img {
+    width: 100%;
+    height: auto;
+    margin-top: -25px;
+  }
+  /* line 1527, sass/begijnhof.scss */
+  #recent-news .item .newsTextAndButton {
+    padding: 15px 20px 20px;
+  }
+
+  /* line 1532, sass/begijnhof.scss */
+  #widgets {
+    display: none;
+  }
+
+  /* line 1536, sass/begijnhof.scss */
+  #spotlight .spotlightContainer {
+    display: block;
+  }
+  /* line 1538, sass/begijnhof.scss */
+  #spotlight .spotlightContainer .spotlightText {
+    padding: 30px;
+  }
+  /* line 1541, sass/begijnhof.scss */
+  #spotlight .spotlightContainer .spotlightImage {
+    height: 300px;
+  }
+  /* line 1543, sass/begijnhof.scss */
+  #spotlight .spotlightContainer .spotlightImage ul {
+    left: 15%;
+  }
+
+  /* line 1551, sass/begijnhof.scss */
+  #advantages ul li {
+    padding-left: 65px;
+  }
+  /* line 1553, sass/begijnhof.scss */
+  #advantages ul li:before {
+    padding-left: 20px;
+  }
+
+  /* line 1560, sass/begijnhof.scss */
+  .defaultTemplate #additional-links {
+    display: block;
+  }
+  /* line 1563, sass/begijnhof.scss */
+  .defaultTemplate #additional-links article#links {
+    margin: 0 0 30px;
+  }
+  /* line 1568, sass/begijnhof.scss */
+  .defaultTemplate #patrimonium {
+    margin: 30px 0 30px;
+    display: block;
+  }
+  /* line 1571, sass/begijnhof.scss */
+  .defaultTemplate #patrimonium .col-xs-12 {
+    margin-bottom: 15px;
+  }
+  /* line 1576, sass/begijnhof.scss */
+  .defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra {
+    left: 8%;
+  }
+
+  /* line 1586, sass/begijnhof.scss */
+  .news-page #news {
+    margin-bottom: 0;
+  }
+  /* line 1588, sass/begijnhof.scss */
+  .news-page #news .row {
+    display: block;
+  }
+  /* line 1592, sass/begijnhof.scss */
+  .news-page #news .articleContainer .item {
+    margin-bottom: 15px;
+  }
+
+  /* line 1600, sass/begijnhof.scss */
+  #site-footer .partners img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  /* line 1608, sass/begijnhof.scss */
+  .hidden-sm {
+    display: none;
+  }
+
+  /* line 1612, sass/begijnhof.scss */
+  .single-patrimonium .patrimoniumExtra {
+    width: 100%;
+    left: 0;
+  }
+
+  /* line 1619, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li {
+    width: 49% !important;
+    margin-bottom: 5px;
+    margin-left: 5px;
+  }
+  /* line 1625, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li.menu-item-has-children a:after {
+    right: 100px;
+  }
+  /* line 1633, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-138.menu-item-has-children a:after {
+    right: 90px;
+  }
+
+  /* line 1642, sass/begijnhof.scss */
+  #intro {
+    padding: 120px 0 50px 70px;
+  }
+
+  /* line 1646, sass/begijnhof.scss */
+  #recent-news .row {
+    display: block;
+  }
+  /* line 1649, sass/begijnhof.scss */
+  #recent-news .item {
+    overflow: hidden;
+    display: block;
+  }
+  /* line 1652, sass/begijnhof.scss */
+  #recent-news .item figure {
+    height: 175px;
+    overflow: hidden;
+  }
+  /* line 1655, sass/begijnhof.scss */
+  #recent-news .item figure img {
+    width: 100%;
+    height: auto;
+  }
+  /* line 1660, sass/begijnhof.scss */
+  #recent-news .item .newsTextAndButton {
+    padding: 15px 20px 20px;
+  }
+
+  /* line 1668, sass/begijnhof.scss */
+  #spotlight .spotlightContainer .spotlightImage ul {
+    left: 8%;
+  }
+
+  /* line 1674, sass/begijnhof.scss */
+  #advantages {
+    margin-bottom: 50px;
+  }
+  /* line 1677, sass/begijnhof.scss */
+  #advantages ul li {
+    margin-left: 8.5%;
+  }
+
+  /* line 1683, sass/begijnhof.scss */
+  .defaultTemplate #additional-links {
+    display: block;
+  }
+  /* line 1686, sass/begijnhof.scss */
+  .defaultTemplate #additional-links article#links {
+    margin: 0 0 30px;
+  }
+  /* line 1694, sass/begijnhof.scss */
+  .defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra {
+    left: 18%;
+  }
+
+  /* line 1705, sass/begijnhof.scss */
+  #site-footer .partners img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+
+  /* line 1714, sass/begijnhof.scss */
+  .news-page #news .row .col-sm-6 {
+    width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  /* line 1727, sass/begijnhof.scss */
+  .hidden-md {
+    display: none;
+  }
+
+  /* line 1732, sass/begijnhof.scss */
+  header#site-header .logo-container .logo {
+    width: 250px;
+    height: 90px;
+  }
+  /* line 1738, sass/begijnhof.scss */
+  header#site-header #menu-topnavigatie li {
+    padding: 10px 7px;
+  }
+  /* line 1740, sass/begijnhof.scss */
+  header#site-header #menu-topnavigatie li a {
+    font-size: 13px;
+    font-weight: 500;
+  }
+  /* line 1750, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li.menu-item-has-children a:after {
+    right: 48px;
+  }
+  /* line 1758, sass/begijnhof.scss */
+  header#site-header #menu-hoofdnavigatie > li#menu-item-138.menu-item-has-children a:after {
+    right: 36px;
+  }
+
+  /* line 1772, sass/begijnhof.scss */
+  .defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside figure .map, .single #patrimonium .patrimoniumContainer .patrimoniumInside figure .map {
+    bottom: 15px;
+  }
+  /* line 1776, sass/begijnhof.scss */
+  .defaultTemplate #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra, .single #patrimonium .patrimoniumContainer .patrimoniumInside ul.ra {
+    left: 3.5%;
+  }
+
+  /* line 1789, sass/begijnhof.scss */
+  .news-page #news .row .col-md-4 {
+    width: 33,333333333%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33,333333333%;
+    flex: 0 0 33,333333333%;
+    max-width: 33,333333333%;
+    display: flex;
+  }
+
+  /* line 1802, sass/begijnhof.scss */
+  #patrimonium .row .col-md-6 {
+    width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 1814, sass/begijnhof.scss */
+  .hidden-lg {
+    display: none;
+  }
+
+  /* line 1820, sass/begijnhof.scss */
+  .news-page #news .row .col-md-4 {
+    width: 33,333333333%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33,333333333%;
+    flex: 0 0 33,333333333%;
+    max-width: 33,333333333%;
+    display: flex;
+  }
+
+  /* line 1833, sass/begijnhof.scss */
+  #patrimonium .row .col-md-6 {
+    width: 50%;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    display: flex;
+  }
+}
